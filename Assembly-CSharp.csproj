@@ -114,11 +114,11 @@
      <None Include="Assets\BeatEmUp_GameTemplate3D\Enemy1\EnemyNames.txt" />
      <None Include="Assets\BeatEmUp_GameTemplate3D\Shaders\SimpleAlphaColor.shader" />
      <None Include="Assets\BeatEmUp_GameTemplate3D\Shaders\UnlitLightMapEmissiveCubeMap.shader" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>E:/Disco F/Unity/Beat em up/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Disco F/Unity/Beat em up/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>E:/Disco F/Unity/Beat em up/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

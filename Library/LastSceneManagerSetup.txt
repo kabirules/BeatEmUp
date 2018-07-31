@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BeatEmUp_GameTemplate3D/Game.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
