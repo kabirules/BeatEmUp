@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Disco F/Unity/Beat em up/BeatEmUp.apk
+C:/Development/Unity/BeatEmUp/BeatEmUp.apk
 SceneListBegin?
 Assets/BeatEmUp_GameTemplate3D/CharacterSelection.unity
 Assets/BeatEmUp_GameTemplate3D/Game.unity
