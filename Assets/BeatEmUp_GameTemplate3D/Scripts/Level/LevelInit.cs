@@ -24,28 +24,22 @@ public class LevelInit : MonoBehaviour {
 		}
 
 		//create Audio Player
-		if(!GameObject.FindObjectOfType<BeatEmUpTemplate.AudioPlayer>() && createAudioPlayer)	
-			audioplayer = GameObject.Instantiate(Resources.Load("AudioPlayer"), Vector3.zero, Quaternion.identity) as GameObject;
+		if(!GameObject.FindObjectOfType<BeatEmUpTemplate.AudioPlayer>() && createAudioPlayer)	audioplayer = GameObject.Instantiate(Resources.Load("AudioPlayer"), Vector3.zero, Quaternion.identity) as GameObject;
 
 		//create InputManager
-		if(!GameObject.FindObjectOfType<InputManager>() && createInputManager) 
-			GameObject.Instantiate(Resources.Load("InputManager"), Vector3.zero, Quaternion.identity);
+		if(!GameObject.FindObjectOfType<InputManager>() && createInputManager) GameObject.Instantiate(Resources.Load("InputManager"), Vector3.zero, Quaternion.identity);
 
 		//create UI
-		if(!GameObject.FindObjectOfType<UIManager>() && createUI) 
-			GameObject.Instantiate(Resources.Load("UI"), Vector3.zero, Quaternion.identity);
+		if(!GameObject.FindObjectOfType<UIManager>() && createUI) GameObject.Instantiate(Resources.Load("UI"), Vector3.zero, Quaternion.identity);
 	
 		//create Game Camera
-		if(!GameObject.FindObjectOfType<CameraFollow>() && createGameCamera) 
-			GameObject.Instantiate(Resources.Load("GameCamera"), Vector3.zero, Quaternion.identity);
+		if(!GameObject.FindObjectOfType<CameraFollow>() && createGameCamera) GameObject.Instantiate(Resources.Load("GameCamera"), Vector3.zero, Quaternion.identity);
 
 		//start music
-		if(playMusic && createAudioPlayer) 
-			Invoke("PlayMusic", 1f);
+		if(playMusic && createAudioPlayer) Invoke("PlayMusic", 1f);
 
 		//open a menu at level start
-		if(!string.IsNullOrEmpty(showMenuAtStart)) 
-			ShowMenuAtStart();
+		if(!string.IsNullOrEmpty(showMenuAtStart)) ShowMenuAtStart();
 	}
 
 	void PlayMusic() {
